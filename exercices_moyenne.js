@@ -50,3 +50,11 @@ function Tri(m,n) {
 
 let y = number.sort(Tri);
 console.log(y);
+
+//exercice 16:
+let tab16 = [1, 2, 3, 4];
+
+let xx = tab16.map(t => t*2);
+
+console.log(xx);
+
