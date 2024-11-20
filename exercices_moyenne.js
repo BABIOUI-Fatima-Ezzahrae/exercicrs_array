@@ -33,3 +33,10 @@ if (index !== -1){
 }
 
 console.log(tab14);
+
+//exercice 15:
+let  numbers = [5, 1, 8, 4, 7];
+
+let x = numbers.sort((a,b) => a-b);
+
+console.log(x);
