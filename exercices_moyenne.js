@@ -58,3 +58,12 @@ let xx = tab16.map(t => t*2);
 
 console.log(xx);
 
+//exercice 17:
+const car = {
+    make : "Toyota",
+    model : "Corolla",
+    year : 2020,
+    color : "blue"
+};
+let compare = Object.keys(car).length;
+console.log(compare);
