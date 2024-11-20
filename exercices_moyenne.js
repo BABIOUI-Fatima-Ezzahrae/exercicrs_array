@@ -34,9 +34,19 @@ if (index !== -1){
 
 console.log(tab14);
 
-//exercice 15:
+//exercice 15: (methode 1)
 let  numbers = [5, 1, 8, 4, 7];
 
 let x = numbers.sort((a,b) => a-b);
 
 console.log(x);
+
+//exercice 15: (methode 2)
+let number = [25, 7, 89, 4, 17];
+
+function Tri(m,n) {
+    return m-n;
+}
+
+let y = number.sort(Tri);
+console.log(y);
