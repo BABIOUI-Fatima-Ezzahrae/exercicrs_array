@@ -22,3 +22,14 @@ let b = [4,5,6];
 let fussion = a.concat(b);
 
 console.log(fussion);
+
+// exercice 14:
+let tab14 = ["apple", "banana", "cherry", "date"];
+
+let index = tab14.indexOf("banana");
+
+if (index !== -1){
+    tab14.splice(index,1);
+}
+
+console.log(tab14);
